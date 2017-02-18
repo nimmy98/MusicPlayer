@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         toggleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 if (toggleButton.isChecked()) {
                     mp.start();
                 } else {
